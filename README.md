@@ -10,3 +10,5 @@
 6. Öppna en ny terminal och kör `npm test`
 
 Nu borde du vara reda att skriva nya tester och bygga ut din app.
+
+lägga till lite text

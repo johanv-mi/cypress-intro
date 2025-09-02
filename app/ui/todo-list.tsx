@@ -16,7 +16,7 @@ export default function TodoList({ defaultTodos }: Props) {
         <li key={t.id}>
           <span>{t.text}</span>
           <button
-            onClick={() => setTodos(todos.filter(({ id }) => t.id !== id))}
+            onClick={() => setTdos(todos.filter(({ id }) => t.id !== id))}
           >
             🗑️
           </button>
